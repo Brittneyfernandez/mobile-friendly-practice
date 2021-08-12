@@ -1,0 +1,60 @@
+:root{
+    --green: hsl(190deg 98% 48%);
+    --h3-color:hsl(186deg 79% 26%)
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+
+}
+
+
+#top{
+    background-image: linear-gradient(var(--green), black);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+    margin:auto;
+    line-height: 200px;
+
+
+}
+
+#top h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+
+#bottom{
+    background-color: white;
+    /* background-size: cover; */
+    height: 200px;
+    margin:auto;
+    padding:0 200px;
+    z-index: 100;
+    position: relative;
+
+
+}
+
+h3{
+    color: var(--h3-color);
+}
+#bottom h3:nth-child(3){
+    text-align: right;
+    padding-right: 30px;
+}
+
+#wave{
+    width: 100vw;
+    position: absolute;
+    top:260px;
+    height: 200px;
+    transform: rotate(5deg);
+    
+}
